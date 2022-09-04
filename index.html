@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Invoriem - html</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <!-- owl corousel -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <div class="container">
+        <div class="header__top">
+          <nav class="nav">
+            <a href="#!" class="nav__logo">
+              <img src="./img/logo.svg" alt="Invoriem project" />
+            </a>
+            <ul class="nav__list">
+              <li><a class="link" href="#!">About us</a></li>
+              <li><a class="btn open-modal-btn" href="#!">Let`s talk</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="header__content">
+          <h1 class="header__title title">We build dreams, not just walls</h1>
+          <div class="header__text">
+            <p>Fulfill your international property developments with us</p>
+          </div>
+        </div>
+        <div class="header__btn">
+          <a href="#!" class="btn btn--big btn--dark">Let`s Talk</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="case-studies">
+        <div class="container">
+          <div class="case-studies__title">
+            <h2 class="title">Case Studies</h2>
+          </div>
+          <div class="case-studies__text text">
+            <p>
+              We deliver a unique and truly bespoke approach to delivering international
+              developments to market, with over 10 years success around the world.
+            </p>
+          </div>
+        </div>
+
+        <!-- корусель -->
+        <div class="container-right">
+          <div class="slider owl-carousel owl-theme">
+            <div class="slider__item slide">
+              <h3 class="slide__title">France</h3>
+              <img class="slide__img" src="./img/slider/slider-01.jpg" alt="01" />
+            </div>
+            <div class="slider__item slide">
+              <h3 class="slide__title">Moroco</h3>
+              <img class="slide__img" src="./img/slider/slider-02.jpg" alt="02" />
+            </div>
+            <div class="slider__item slide">
+              <h3 class="slide__title">Portugal</h3>
+              <img class="slide__img" src="./img/slider/slider-03.jpg" alt="03" />
+            </div>
+            <div class="slider__item slide">
+              <h3 class="slide__title">London</h3>
+              <img class="slide__img" src="./img/slider/slider-04.jpg" alt="04" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About -->
+
+      <section class="about">
+        <div class="container">
+          <div class="about__title">
+            <h2 class="title">We are Invoriem</h2>
+          </div>
+          <div class="about__text text">
+            <p>We fulfill international property developments</p>
+          </div>
+          <!-- Video -->
+          <div class="video video-overlay">
+            <button class="video-btn" id="video-btn">
+              <img src="./img/play-btn.svg" alt="play video" />
+            </button>
+            <img class="video-preview" src="./img/video-picture.jpg" alt="video" />
+
+            <video class="video-object">
+              <source src="./img/video/video.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__row">
+          <div class="footer__copiright">Copyright © 2020 Invoriem</div>
+          <div class="footer__nav">
+            <div class="footer__email">
+              <a href="mailto:info@invoriem.com">info@invoriem.com</a>
+            </div>
+            <div class="footer__socials">
+              <a href="#!" class="icon"><img src="./img/icons/instagram.svg" alt="Instagram" /></a>
+              <a href="#!" class="icon"><img src="./img/icons/facebook.svg" alt="Instagram" /></a>
+              <a href="#!" class="icon"><img src="./img/icons/linkedin.svg" alt="Instagram" /></a>
+              <a href="#!" class="icon"><img src="./img/icons/twitter.svg" alt="Instagram" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- modal -->
+    <div class="modal">
+      <div class="modal-overlay">
+        <div class="modal-content">
+          <div class="modal-title">
+            <h2>Modal window</h2>
+          </div>
+          <p class="modal-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quis fuga veniam adipisci
+            nemo? Vel voluptas iste esse quaerat delectus dignissimos iusto ex cum ducimus. Quos
+            atque perspiciatis eius neque?
+          </p>
+          <button type="button" class="modal-btn">Close modal</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- About us modal -->
+    <!-- <div class="about-us-modal">
+      <div class="about-us-modal-overlay">
+        <div class="about-us-modal-content">
+          <div class="modal-title">
+            <h2>About us modal window</h2>
+          </div>
+          <p class="about-us-modal-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quis fuga veniam adipisci
+            nemo? Vel voluptas iste esse quaerat delectus dignissimos iusto ex cum ducimus. Quos
+            atque perspiciatis eius neque?
+          </p>
+          <button type="button" class="about-us-modal-btn">Close about us modal</button>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- JQuery -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- Owl corousel -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script src="./js/script.js"></script>
+    <script src="./js/modal-window.js"></script>
+  </body>
+</html>
