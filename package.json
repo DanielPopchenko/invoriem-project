@@ -1,0 +1,19 @@
+{
+  "name": "invoriem-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielPopchenko/invoriem-project.git"
+  },
+  "author": "Daniil Popchenko <daniel.popchenko@icloud.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielPopchenko/invoriem-project/issues"
+  },
+  "homepage": "https://github.com/DanielPopchenko/invoriem-project#readme"
+}
