@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/DanielPopchenko/invoriem-project/issues"
   },
-  "homepage": "https://github.com/DanielPopchenko/invoriem-project#readme"
+  "homepage": "https://github.com/DanielPopchenko/invoriem-project#readme",
+  "dependencies": {
+    "validator": "^13.7.0"
+  }
 }
